@@ -2,8 +2,9 @@ import Navbar from "../Components/Navbar";
 
 const Second = () => {
   return (
-    <div>
+    <div className="bg-neutral-500">
       <Navbar></Navbar>
+      <div className="min-h-screen w-full bg-neutral-500">body</div>
     </div>
   );
 };
